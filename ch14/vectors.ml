@@ -45,3 +45,7 @@ let plot fn st en step =
 
 let pi = 22. /. 7. in
     plot sin 0. pi (pi /. 20.);;
+
+let pi = 4. *. atan 1. in
+    plot sin 0. pi (pi /. 20.);;
+
